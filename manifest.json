@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "Leads Tracker",
+    "description": "Track and manage your leads with this Chrome extension.",
+    "icons": {
+        "48": "icon.jpg"
+    },
+    "permissions": [
+        "tabs",
+        "storage",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.jpg"
+    }
+}
